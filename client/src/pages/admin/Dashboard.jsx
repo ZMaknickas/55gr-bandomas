@@ -6,7 +6,9 @@ export function AdminDasboardPage() {
 
     return (
         <main>
-            <p>Email: {email}</p>
+            <p>Tai yra vadibininko paštas, kreiptis ne veliau 17.30:</p> 
+                <p>{email}</p>
+                <p>Prašome elgtis kulturingai.</p>
         </main>
     );
 }
