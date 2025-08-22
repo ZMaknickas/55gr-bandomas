@@ -31,7 +31,7 @@ export function AdminMovieForm({ api, method, movie }) {
     const [rating, setRating] = useState(movie?.rating ?? 0);
     const [status, setStatus] = useState(movie?.status_name ?? 'draft');
 
-    const duration = parseInt(hours) * 60 + parseInt(minutes);
+    const duration = parseInt(hours) + parseInt(minutes);
 
     function handleImageFormSubmit(e) {
         e.preventDefault();

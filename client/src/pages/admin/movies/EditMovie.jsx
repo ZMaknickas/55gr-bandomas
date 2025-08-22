@@ -14,7 +14,7 @@ export function AdminEditMoviePage() {
 
     return (
         <main>
-            <AdminPageTitle title="Edit movie" />
+            <AdminPageTitle title="Edit Item box" />
 
             <div className="container">
                 <div className="row">

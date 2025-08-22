@@ -9,7 +9,15 @@ export function MoviesPage() {
 
     return (
         <main className='min-page-height'>
-            <PublicPageTitle title='List of Clients' />
+            <PublicPageTitle title='Movies' />
+
+            <MoviesFilter />
+
+            <div className="container">
+                <div className="row">
+                    {publicMovies.map((movie, index) => <MovieCard key={index} movie={movie} />)}
+                </div>
+            </div>
         </main>
     );
 }

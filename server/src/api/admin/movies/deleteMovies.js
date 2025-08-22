@@ -22,7 +22,7 @@ export async function deleteAdminMovies(req, res) {
         if (response.affectedRows === 0) {
             return res.status(400).json({
                 status: 'error',
-                msg: 'Toks filmas neegzistuoja',
+                msg: 'Toks f neegzistuoja',
             });
         }
     } catch (error) {
@@ -35,6 +35,6 @@ export async function deleteAdminMovies(req, res) {
 
     return res.status(200).json({
         status: 'success',
-        msg: 'Filmas istrintas sekmingai',
+        msg: 'F istrintas sekmingai',
     });
 }

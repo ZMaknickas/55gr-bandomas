@@ -11,10 +11,10 @@ export function HomePage() {
                             width={700} height={500} loading="lazy" />
                     </div>
                     <div className="col-lg-6">
-                        <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Login to Chat and share photos</h1>
+                        <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Login to edit Items Containers</h1>
                         <p className="lead">Čia galima perskaityti aprašymą apie naują projektą</p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <Link to="/movies" className="btn btn-primary btn-lg px-4 me-md-2">All main content</Link>
+                            <Link to="/movies" className="btn btn-primary btn-lg px-4 me-md-2">Main content</Link>
                         </div>
                     </div>
                 </div>

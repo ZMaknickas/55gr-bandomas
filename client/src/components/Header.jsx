@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router";
-import logo from '../assets/hl.jpg';
+import logo from '../assets/logo.jpg';
 import { useContext } from "react";
 import { UserContext } from "../context/user/UserContext";
 
